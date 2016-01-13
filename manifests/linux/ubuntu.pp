@@ -1,5 +1,5 @@
 class kodi::linux::ubuntu (
-	Boolean $prerelease => false
+	Boolean $prerelease = false
 ) {
 
 	# Instead of keeping a list of what release can run stable/unstable

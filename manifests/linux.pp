@@ -1,5 +1,5 @@
 class kodi::linux (
-	Boolean $prerelease => false
+	Boolean $prerelease = false
 ) {
 
 	case $::operatingsystem {

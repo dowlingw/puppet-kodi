@@ -1,5 +1,5 @@
 class kodi (
-	Boolean $prerelease => false
+	Boolean $prerelease = false
 ) {
 
 	case $::kernel {
