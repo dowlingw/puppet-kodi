@@ -3,11 +3,7 @@
 #### Table of Contents
 
 1. [Description](#description)
-1. [Setup - The basics of getting started with kodi](#setup)
-    * [Setup requirements](#setup-requirements)
-    * [Beginning with kodi](#beginning-with-kodi)
 1. [Usage - Configuration options and additional functionality](#usage)
-1. [Reference - An under-the-hood peek at what the module is doing and how](#reference)
 1. [Limitations - OS compatibility, etc.](#limitations)
 1. [Development - Guide for contributing to the module](#development)
 
@@ -15,14 +11,11 @@
 
 Installs the Kodi Open Source Home Theatre application on your system.
 
-### Beginning with kodi
+## Usage
 
 To get started without any fuss, use an include statement:
 
     include kodi
-
-
-## Usage
 
 If you want to run bleeding edge Kodi, use the following:
 
