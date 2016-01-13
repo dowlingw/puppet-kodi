@@ -1,0 +1,27 @@
+{
+  "name": "dowlingw-kodi",
+  "version": "0.0.1",
+  "author": "dowlingw",
+  "summary": "Install Kodi: Open Source Home Theatre",
+  "license": "MIT",
+  "source": "https://github.com/dowlingw/puppet-kodi",
+  "project_page": "https://github.com/dowlingw/puppet-kodi",
+  "issues_url": "https://github.com/dowlingw/puppet-kodi/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"},
+    {"name":"puppetlabs-apt","version_requirement":">= 1.0.0"}
+  ],
+  "data_provider": null,
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "14.04",
+        "14.10",
+        "15.04",
+        "15.10",
+      ]
+    }
+  ]
+}
+
