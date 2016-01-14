@@ -5,7 +5,7 @@ class kodi::linux (
 	case $::operatingsystem {
 		'Ubuntu': {
 			class { "${title}::ubuntu":
-				prerelease => $preprelease
+				prerelease => $prerelease
 			}
 		}
 		default: {
