@@ -17,7 +17,6 @@ class kodi::linux::ubuntu (
 
 	if $prerelease {
 		apt::ppa { 'ppa:team-xbmc/unstable':
-			package_manage => true
 		}
 	}
 
