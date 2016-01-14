@@ -12,7 +12,6 @@ class kodi::linux::ubuntu (
 	include apt
 
 	apt::ppa { 'ppa:team-xbmc/ppa':
-		package_manage => true
 	}
 
 	if $prerelease {
